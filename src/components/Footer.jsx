@@ -10,7 +10,7 @@ const Footer = () => {
   const icons = [faFacebook, faTwitter, faInstagram];
 
   return (
-    <div className="mt-5">
+    <div className="absolute bottom-0 mb-5 xl:mt-3">
       <div className="flex justify-center">
         {icons.map((icon, index) => (
           <SocialMedia key={index} icon={icon} className="basis-1/3" />
