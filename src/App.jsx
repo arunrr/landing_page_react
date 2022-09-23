@@ -1,13 +1,10 @@
 import "./App.css";
 
-import Header from "./components/Header";
-import Notify from "./components/Notify";
-import Illustration from "./components/Illustration";
-import Footer from "./components/Footer";
+import { Header, Notify, Illustration, Footer } from "./components";
 
 function App() {
   return (
-    <div className="box-border flex flex-col justify-center items-center h-screen">
+    <div className="box-border flex flex-col justify-center items-center mt-5">
       <h1 className="mb-5 text-3xl font-bold uppercase sm:text-5xl">creed</h1>
       <Header />
       <Notify />
