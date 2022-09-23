@@ -7,8 +7,8 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="flex flex-col justify-center items-center  box-border mt-10">
-      <h1 className="font-bold uppercase">creed</h1>
+    <div className="flex flex-col justify-center items-center  box-border mt-16">
+      <h1 className="mb-5 font-bold uppercase text-4xl">creed</h1>
       <Header />
       <Notify />
       <Illustration />
